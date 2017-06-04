@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/0.12.16/vue.min.js"></script>
+
+</head>
+<body>
+<div id="demo">
+    <div>{{content}}</div>
+    <input type="text" v-model="content"/>
+    <div>
+        <select v-model="selected" multiple>
+            <option>A</option>
+            <option>B</option>
+            <option>C</option>
+        </select>
+        <span>Selected: {{selected}}</span>
+    </div>
+</div>
+
+<script src="app.js">
+</script>
+</body>
+</html>
